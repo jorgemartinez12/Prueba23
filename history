@@ -1,0 +1,60 @@
+    1  cfdisk
+    2  fdisk
+    3  fdisk -v
+    4  fdisk -l
+    5  fidsk
+    6  fdisk
+    7  fdisk -l
+    8  cfdisk
+    9  man pvcrete
+   10  man pvcreate
+   11  apt-get lvm2
+   12  apt-get install lvm2
+   13  apt-get update
+   14  apt-get install tree
+   15  apt-get install vim
+   16  apt-get install git
+   17  man pvcreate
+   18  cd ~
+   19  pvcreate dev/sda6
+   20  cfdisk
+   21  cfdisk -l
+   22  fdisk -l
+   23  cd home
+   24  cd /tmp
+   25  cd /home
+   26  pvcreate /dev/sda6
+   27  pvcreate /dev/sda{7,8,9}
+   28  pvdisplay
+   29  man vgcreate
+   30  vgcreate /dev/sda6
+   31  man vgcreate
+   32  vgcreate -s 16M vg01 dev/sda6
+   33  vgdisplay
+   34  vgcreate -s 16M vg01 /dev/sda6
+   35  vgcreate
+   36  vgdisplay
+   37  man vgextend
+   38  vgextend vg01 /dev/sda7
+   39  vgcreate -s 16M vg02 /dev/sda8
+   40  vgextend vg02 /dev/sda9
+   41  man lvcreate
+   42  lvcreate -L 500M -n data01 vg01
+   43  lvcreate -L 1G -n data02 vg02
+   44  mkdir data{01,02}
+   45  ls
+   46  man mount
+   47  mount /dev/vg01/data01 data01/
+   48  man mkfs
+   49  mkfs -t ext4 /dev/vg01/data01
+   50  mount /dev/vg01/data01 data01
+   51  mount
+   52  mkfs -t ext4 /dev/vg02/data02
+   53  mount /dev/vg02/data02 data02/
+   54  mount
+   55  mount -v
+   56  man mpunt
+   57  man mount
+   58  mkdir gitinfo
+   59  cd gitinfo/
+   60  history >history
